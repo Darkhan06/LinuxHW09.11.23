@@ -1,0 +1,38 @@
+   0 hi Mr.Ivan)
+   1 mkdir -p /home/animals
+   2 mkdir -p /home/animals/dogs
+   3 mkdir -p /home/animals/cats
+   4 mkdir -p /home/animals/fish
+   5 touch /home/animals/fish/nemo
+   6 touch /home/animals/cats/garfield
+   7 touch /home/animals/dogs/pluto
+   8 cd /home/animals
+   9 tree
+  10 cd /home/animals/dogs
+  11 ls
+  12 cd
+  13 mkdir -p /home/planets
+  14 touch /opt/Mercury
+  15 touch /opt/Venuc
+  16 touch /opt/Mars
+  17 touch /opt/Jupiter
+  18 mv /opt/Mercury /home/planets
+  19 mv /opt/Venuc /home/planets
+  20 mv /opt/Mars /home/planets
+  21 mv /opt/Jupiter /home/planets
+  22 touch /tmp/adam
+  23 mkdir -p /home/humans && cd /tmp/adam /home/humans
+  24 mkdir -p /home/humans && cp /tmp/adam /home/humans
+  25 cd /home/humans
+  26 ls
+  27 cd
+  28 touch /tmp/evA
+  29 mv /tmp/evA /opt/eve
+  30 cd /opt
+  31 ls
+  32 cd
+  33 mv /opt/eve /home/humans
+  34 cd /home/humans/
+  35 ls
+  36 history
+  37 history > history_09.txt
